@@ -1,100 +1,97 @@
-        *{
-		    margin:0px;
-		    padding:0px;
-		    box-sizing:border-box;
-			
-			
-		   }
-		   .data{
-			   display:none;
-		   }
-		    #userdata{
-			    display:flex;
-				flex-wrap:wrap;
-				border:2px solid #ccc;
-				border-radius:5px;
-				background-color: #fff;
-				}
-			.box-item{
-			   width: 28%;
-			   height:auto;
-			   border: 1px solid #ccc;
-               border-radius: 5px;	
-               margin: 20px;
-               overflow: hidden;
-			   position: relative;	
-               background-color: #fff;			   
-            }
-			.box-backimg{
-				background-image: url("../images/bg.jpg");
-				background-position:center;
-				background-size:cover;
-				background-repeat:no-repeat;
-				padding:28px;
-				margin-bottom: 19px;
-			}
-			.box-img img{
-				width:60px;
-				height:60px;
-				border-radius:50px;
-				position: absolute;
-				top: 30px;
-				left: 10px;
-			}
-			buttons{
-				       display: inline-block;
-						width: 100%;
-						font-size: 15px;
-						font-weight: bold;
-						color: #2196f3;
-						background: #fff;
-						padding: 5px 30px;
-						margin:10px 0;
-						border-radius: 25px;
-						border: solid 1px #2196f3;
-			}
-			
-			.box-cont {
-				      padding: 5px;
-                      border-radius: 25px;
-			}
-			.box-cont h2{
-				    color:#121415;
-					padding:10px;
-					font-size:18px;
-					line-height:1;
-					font-family: "Open Sans", sans-serif;
-			}
-			.box-cont h3{
-				    color: rgba(0,0,0,.6);
-					padding: 6px;
-                    margin-left: 5px;
-					font-size:15px;
-					font-family: "Open Sans", sans-serif;
-					line-height:1;
-			}
-			.box-cont h4{
-				   color: rgba(0,0,0,.6);
-				   padding: 6px;
-                   margin-left: 5px;
-				   font-size:15px;
-				   line-height:1;
-				   font-family: "Open Sans", sans-serif;
-			}
-	/*-------- header ---------*/
-	.headersection{
-		display:block;
+    *{
+		margin:0px;
+	    padding:0px;
+	    box-sizing:border-box;
 	}
+    .data{
+	    display:none;
+	}
+    #userdata{
+    display:flex;
+	flex-wrap:wrap;
+	border:2px solid #ccc;
+	border-radius:5px;
+	background-color: #fff;
+	}
+	.box-item{
+	width: 28%;
+	height:auto;
+	border: 1px solid #ccc;
+	border-radius: 5px;	
+	margin: 20px;
+	overflow: hidden;
+	position: relative;	
+	background-color: #fff;			   
+    }
+	.box-backimg{
+	background-image: url("../images/bg.jpg");
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	padding:28px;
+	margin-bottom: 19px;
+	}
+	.box-img img{
+	width:60px;
+	height:60px;
+	border-radius:50px;
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	}
+	buttons{
+	display: inline-block;
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2196f3;
+	background: #fff;
+	padding: 5px 30px;
+	margin:10px 0;
+	border-radius: 25px;
+	border: solid 1px #2196f3;
+	}
+	.box-cont {
+	padding: 5px;
+	border-radius: 25px;
+	}
+	.box-cont h2{
+    color:#121415;
+	padding:10px;
+	font-size:18px;
+	line-height:1;
+	font-family: "Open Sans", sans-serif;
+	}
+	.box-cont h3{
+	color: rgba(0,0,0,.6);
+	padding: 6px;
+	margin-left: 5px;
+	font-size:15px;
+	font-family: "Open Sans", sans-serif;
+	line-height:1;
+	}
+	.box-cont h4{
+	color: rgba(0,0,0,.6);
+	padding: 6px;
+	margin-left: 5px;
+	font-size:15px;
+	line-height:1;
+	font-family: "Open Sans", sans-serif;
+    }
+	/*-------- header ---------*/
+	/*.headersection{
+		display:block;
+	}*/
 	.header{
 		 background-color:#fff;
 		margin-bottom: 20px;
 	}
-	.none {
+	/*.none {
 		display: none;
-	}
+	}*/
 	.logo {
 		display: flex;
-		flex-wrap: no-wrap;
+		/*display:none;*/
 	}
 	.logo h2{
 		 font-size:20px;
@@ -391,4 +388,184 @@ img{
 	left: 200px;
     bottom: -4px;
     position: absolute;
+}
+.tb{
+	padding: 7px 10px;
+}
+
+
+/*--------------login up----------------*/
+.set{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.set-2{
+    background-color: rgb(216,214,214);
+    box-shadow: rgb(0,0,0) 0px 5px 15px;
+    width: 400px;
+	 justify-content: center;
+    align-items: center;
+}
+
+.header-2{
+    color: #fff;
+    text-align: center;
+    background-color: #2a0845;
+    padding: 10px 20px;
+    border-bottom: 2px solid #494848;
+}
+.form{
+    padding: 30px 40px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 4px;
+    font-size: .8rem;
+    width: 100%;
+    padding: 10px;
+}
+
+.form input::placeholder{
+    color: #2a0845;
+}
+
+.form-group i{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    visibility: hidden;
+}
+
+.form-group span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: italic;
+    visibility: hidden;
+}
+
+
+.form-group.success input{
+    border-color: #2ecc71;
+}
+
+.form-group.error input{
+    border-color: #e74c3c;
+}
+
+.form-group.error span{
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-group.success i.ion-ios-checkmark{
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-group.error i.ion-android-alert{
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form #submit{
+    background-color: #2a0845;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 30%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all .5s;
+}
+
+.form #submit:hover{
+    background-color: #6441a5;
+}
+
+@media only screen and (max-width : 500px){
+    .form{
+        width: 100%;
+    }
+    /*.form-group span{
+        font-size: xx-small;
+    }*/
+}
+.set{
+	display:none;
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
 }
